@@ -1,12 +1,35 @@
-# React + Vite
+# 🎬 CineBox
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**CineBox** es una aplicación web moderna para explorar películas populares, ver reseñas y descubrir contenido visualmente atractivo, inspirada en el estilo de Letterboxd. Utiliza la API de TMDB para mostrar películas en cartelera y permite navegar por títulos destacados, ver detalles, y filtrar por nombre en tiempo real.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Características
 
-## Expanding the ESLint configuration
+- ✅ Consulta de películas actuales desde TMDB
+- 🔍 Búsqueda dinámica por título
+- 🎞️ Visualización de posters, puntuaciones y detalles
+- 🧭 Navegación con React Router
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Tecnologías utilizadas
+
+- **React** con Hooks y Router
+- **JavaScript (ES6+)**
+- **CSS3** con diseño responsivo
+- **TMDB API** para datos de películas
+
+---
+
+## 📦 Instalación
+
+1. Clona el repositorio:
+
+   ```bash
+   git clone https://github.com/ThomasJuty/Cine-Box.git
+   cd Cine-Box
+---
+
+## 🌐 Api utilizada
+Este proyecto utiliza The Movie Database (TMDB) para obtener información actualizada sobre películas. Necesitas una API key para que funcione correctamente. Puedes obtenerla aquí.
