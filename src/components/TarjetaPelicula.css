@@ -1,0 +1,30 @@
+.tarjeta-wrapper {
+  width: 100%;
+  text-align: center;
+}
+
+.tarjeta-pelicula {
+  width: 100%;
+  aspect-ratio: 2 / 3; /* proporción típica de póster de cine */
+  overflow: hidden;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  cursor: pointer;
+  background-color: #000; /* fondo por si la imagen tarda */
+}
+
+
+
+.tarjeta-img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain; 
+  display: block;
+}
+  
+.tarjeta-titulo {
+  margin-top: 0.5rem;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #b4afaf;
+}

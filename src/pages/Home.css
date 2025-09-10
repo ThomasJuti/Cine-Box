@@ -1,0 +1,130 @@
+h1
+{
+  color: rgb(234, 231, 231);
+}
+h2
+{
+  color: rgb(234, 231, 231);
+}
+.home-container {
+  padding-top: 6rem;
+  padding-bottom: 2rem;
+  font-family: "Roboto Condensed";
+  color: #b4afaf;
+}
+
+.descripcion {
+  text-align: center;
+  padding: 2rem;
+  max-width: 800px;
+  margin: auto;
+}
+
+.boton {
+  margin-top: 1rem;
+  padding: 0.75rem 1.5rem;
+  background-color: #6f42c1;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+.boton:hover
+{
+  transform: translateY(-5px);
+  color: #6239ae;
+}
+
+.tarjetas {
+  padding: 2rem;
+  text-align: center;
+}
+
+.grid-tarjetas {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+  justify-items: center;
+}
+
+.tarjeta-home {
+  width: 180px;
+  text-align: center;
+  border-radius: 8px;
+  overflow: hidden;
+  cursor: pointer;
+  background-color: #2a2929;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+
+.tarjeta-imagen-home img {
+  width: 100%;
+  height: 270px;
+  object-fit: cover;
+  border-radius: 8px 8px 0 0;
+  display: block;
+  outline: 3px solid transparent;
+  transition: outline 0.3s ease;
+
+}
+
+.tarjeta-imagen-home:hover {
+  outline: 3px solid #6f42c1;
+}
+
+
+.tarjeta-titulo-home {
+  margin-top: 0.5rem;
+  font-size: 0.95rem;
+  color: #b4afaf;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.tarjeta-puntuacion-home {
+  font-size: 0.85rem;
+  color: #b4afaf;
+  margin-bottom: 0.5rem;
+}
+
+.funciones {
+  padding: 2rem;
+  text-align: center;
+}
+
+.grid-funciones {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  margin-top: 1rem;
+  padding: 0 2rem;
+}
+
+.funcion-item {
+  background-color: #2a2929;
+  padding: 1rem;
+  border-radius: 8px;
+  text-align: center;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  cursor: pointer;
+}
+.funcion-item:hover {
+  background-color: #6f42c1;
+  color: #fff;
+  transform: translateY(-5px);
+}
+
+
+.footer {
+  width: 100%;
+  background-color: #1c1c1c;
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+  margin-top: 3rem;
+}
