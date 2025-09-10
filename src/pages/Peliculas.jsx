@@ -68,7 +68,8 @@ const styles = {
     fontSize: '1rem',
     marginBottom: '2rem',
     borderRadius: '6px',
-    border: '1px solid #ccc',
+    border: '1px solid rgba(0,0,0,0.2)',
+    backgroundColor: '#1c1c1c',
   },
   grid: {
     display: 'grid',

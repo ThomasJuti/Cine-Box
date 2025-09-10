@@ -76,8 +76,7 @@ function Home() {
           </div>
         </section>
       </div>
-
-      {/* Footer fuera del contenedor */}
+      {}
       <footer className="footer">
         <p>© 2025 CineBox. Todos los derechos reservados.</p>
       </footer>

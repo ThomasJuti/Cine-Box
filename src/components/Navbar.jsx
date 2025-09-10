@@ -17,24 +17,25 @@ function Navbar() {
 }
 
 const styles = {
-  header: {
-    position: 'fixed',
-    top: 0,
-    left: 0,
-    right: 0,
-    width: '100%',
-    backgroundColor: '#1c1c1c',
-    boxShadow: '0 2px 4px rgba(0,0,0,0.3)',
-    zIndex: 1000,
-  },
-  nav: {
-    display: 'flex',
-    justifyContent: 'space-between',
-    alignItems: 'center',
-    padding: '0.3rem 2rem',
-    maxWidth: '100%',
-    color: '#fff',
-  },
+header: {
+  position: 'fixed',
+  top: 0,
+  left: 0,
+  right: 0,
+  width: '100%',
+  backgroundColor: '#1c1c1c',
+  zIndex: 1000,
+},
+
+nav: {
+  display: 'flex',
+  justifyContent: 'space-between',
+  alignItems: 'center',
+  padding: '0.5rem 2rem', 
+  height: '6rem',       
+  color: '#fff',
+},
+
 logoImage: {
   height: '6.5rem',
   width:'6.5rem',
